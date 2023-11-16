@@ -3,6 +3,8 @@ import {Line} from 'react-chartjs-2'
 import {Chart as chartjs} from 'chart.js/auto';
 
 function LineChart({chartData}){
+  const dummy= chartjs;
+  console.log(dummy);
     const options = {
         plugins: {
           legend: {
